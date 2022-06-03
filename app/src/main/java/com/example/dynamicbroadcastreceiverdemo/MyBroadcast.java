@@ -26,16 +26,18 @@ public class MyBroadcast extends BroadcastReceiver {
             if (connectivity)
             {
 
-                tvShowConnectivity.setText("Connected");
+                // TODO: 6/3/2022 Disconnected 
+                tvShowConnectivity.setText("Disconnected");
 
-                Toast.makeText(context, "Connected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Disconnected", Toast.LENGTH_SHORT).show();
 
             }
             else {
 
-                tvShowConnectivity.setText("Disconnected");
+                // TODO: 6/3/2022 Connected 
+                tvShowConnectivity.setText("Connected");
 
-                Toast.makeText(context, "Disconnected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Connected", Toast.LENGTH_SHORT).show();
 
             }
         }
